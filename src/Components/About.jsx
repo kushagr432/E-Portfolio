@@ -14,6 +14,23 @@ export default function About() {
     const style = {
         fontFamily: 'Roboto Condensed, sans-serif',
     };
+
+        const downloadFile = () => {
+          // Construct the relative URL to your PDF file
+        const fileUrl = process.env.PUBLIC_URL + '/Resume_Kushagr_Jain.pdf';
+    
+          // Create a download link
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = 'Resume_Kushagr.pdf';
+    
+          // Append the link to the document and trigger the click event
+        document.body.appendChild(link);
+        link.click();
+    
+          // Remove the link from the document
+        document.body.removeChild(link);
+        };
     return (
     <>
 <Layout/>
@@ -37,7 +54,7 @@ export default function About() {
     </div>
 <div className='md:order-2 pt-10'>
     <h2 style={style} className='text-xl font-semibold'>Job Opportunities</h2>
-    <p  style={style} className='self-center text-base font-normal whitespace-nowrap dark:text-white'>I'm looking for a Internship currently,<br /> If you see me as a good fit, check my CV  <br />and I'd love to work for you.</p>
+    <p  style={style} className='self-center text-base font-normal whitespace-nowrap dark:text-white'>I'm looking for a Internship currently,<br /> If you see me as a good fit, check my <p className='font-semibold underline' onClick={downloadFile}>CV</p>   <br />and I'd love to work for you.</p>
 </div>
 </div>
 <div className='w-36 md:order-2'></div>

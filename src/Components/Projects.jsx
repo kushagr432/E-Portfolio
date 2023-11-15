@@ -27,7 +27,7 @@ return (
     <Layout/>
 <div className='h-20 relative z-0'> </div>
 <div className='flex flex-col'>
-<div className='md:order-1 bg-gray-200  relative z-0 h-fit w-screen'>
+<div className='md:order-1 bg-gray-200 relative z-0 h-fit w-screen'>
 <div className='bg-white h-10 relative z-0' ></div>
 <div className='flex items-center justify-center'>
 <h1 style={style} className='text-7xl absolute top-0 z-10 font-bold '>Projects</h1>
@@ -122,7 +122,7 @@ User Authentication is managed using FireBase Authentication</p>
     <h2 style={style} className='text-xl font-semibold pb-4 pt-8'>Link to Github</h2>
     <div className='flex flex-row'>
     <Button variant="outlined" style={blackButtonStyle}>
-    <a style={style} href="https://github.com/kushagr432/shopX.git" target="_blank" rel="noreferrer">Portfolio </a>
+    <a style={style} href="https://github.com/kushagr432/E-Portfolio.git" target="_blank" rel="noreferrer">Portfolio </a>
     
     </Button>
     <img className='h-4 pl-2 ' src={linkImage} alt="img" />
