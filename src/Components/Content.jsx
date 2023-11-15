@@ -22,46 +22,48 @@ return (
 </div>
     </div>
     <div className='md:order-2 flex items-center'>
+        <div className='flex flex-row'>
     <div>
         <ul className='flex flex-col p-4'>
             <li>
             {/* hover:bg-black */}
-            <span style={style} className="self-center text-5xl font-medium whitespace-nowrap dark:text-white ">Student</span>
+            <span style={style} className="self-center text-3xl font-medium whitespace-nowrap dark:text-white sm:text-5xl">Student</span>
             </li>
             <li>
-            <span style={style} className="self-center text-5xl font-medium whitespace-nowrap dark:text-white ">Developer</span>
+            <span style={style} className="self-center text-3xl font-medium whitespace-nowrap dark:text-white sm:text-5xl">Developer</span>
             </li>
             <li>
-            <span style={style} className="self-center text-5xl font-medium whitespace-nowrap dark:text-white  ">Designer</span>
+            <span style={style} className="self-center text-3xl font-medium whitespace-nowrap dark:text-white  sm:text-5xl">Designer</span>
             </li>
             <li>
-            <span style={style} className="self-center text-5xl font-medium whitespace-nowrap dark:text-white">Programmer</span>
+            <span style={style} className="self-center text-3xl font-medium whitespace-nowrap dark:text-white sm:text-5xl">Programmer</span>
             </li>
         </ul>
         </div>
     </div>
     <div className='md:order-3'>
-<div className='w-14'>
+<div className='w-8 sm:w-14'>
 </div>
     </div>
     <div className='md:order-4'>
-    <img src={myImage} className="h-96 w-38 mr-3 ml-4" alt="me" />
+    <img src={myImage} className="h-72 sm:h-96 w-38 mr-3 ml-4" alt="me" />
     
     </div>
+        </div>
     <div className='md:order-5'>
 <div className='w-14'>
 </div>
     </div>
 <div className='md:order-6'>
-    <div className='h-0.5 w-96 lg:h-96 bg-black  lg:w-0.5 opacity-70'>
+    <div className='h-0.5 w-96 lg:h-96 bg-black lg:w-0.5 pb-0 lg:pb-10 opacity-70'>
 
     </div>
 </div>
 <div className='md:order-7'>
-<div className='w-14'>
+<div className='w-14 h-14 sm:h-0'>
 </div>
     </div>
-    <div className='md:order-8'>
+    <div className='md:order-8 '>
 <h1 style={style} className='self-center text-5xl font-medium whitespace-nowrap dark:text-white pb-2'>
     Kushagr Jain
 </h1>

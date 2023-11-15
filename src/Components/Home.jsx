@@ -6,7 +6,7 @@ export default function Home() {
 return (
     <>
     <Navbar/>
-    <div className='h-28'>
+    <div className='h-14 sm:h-28'>
     </div>
     <div>
     <Content/>
