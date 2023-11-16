@@ -73,17 +73,15 @@ return (
 <br />
 <div className='h-10'>
 </div>
+<div className='w-full sm:w-auto flex flex-wrap'> 
 <span style={style} className='self-center text-xl font-medium whitespace-normal dark:text-white pt-2'>
-    A Full Stack multi-skilled professional
-</span>
+A Full Stack multi-skilled professional
 <br />
-<span style={style} className='self-center text-xl font-medium whitespace-normal dark:text-white pt-2'>
 who can handle both front-end and back-end development,
-</span>
 <br />
-<span style={style} className='self-center text-xl font-medium whitespace-normal dark:text-white pt-2'>
 making them capable of creating complete web applications.
 </span>
+</div>
 <br />
 <div  className='pt-8'>
 <Link  to="/contact" className="" aria-current="page">
