@@ -14,7 +14,7 @@ export default function Content() {
     
 return (
     <>
-    <div className='flex flex-row justify-center lg:flex-col pl-128'>
+    <div className='flex flex-row justify-center lg:flex-col p-8'>
 
     <div className= "flex flex-col justify-center  lg:flex-row" >
     <div className='md:order-1'>
@@ -46,7 +46,7 @@ return (
 </div>
     </div>
     <div className='md:order-4'>
-    <img src={myImage} className="h-72 sm:h-96 w-38 mr-3 ml-4" alt="me" />
+    <img src={myImage} className="h-72 sm:h-96 w-38 " alt="me" />
     
     </div>
         </div>

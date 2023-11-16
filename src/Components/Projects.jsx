@@ -33,13 +33,14 @@ return (
 <h1 style={style} className='text-7xl absolute top-0 z-10 font-bold '>Projects</h1>
 </div>
 <div className='h-24'></div>
-<div className='relative z-0  flex flex-col justify-center '>
+<div className='relative z-0 p-8 sm:p-0 flex flex-col justify-center '>
 <div className='flex justify-center items-center'>
-<div className='bg-white shadow-md rounded-lg p-8 shadow-2xl w-max hover:scale-105 transition-transform'>
-<div className='flex flex-row '>
+<div className='bg-white shadow-md rounded-lg p-4 sm:p-8 shadow-2xl w-fit hover:scale-105 transition-transform sm:w-max'>
+<div className='flex flex-col sm:flex-row'>
     {/* <div className='w-80'></div> */}
 <div>
     <h2 style={style} className='text-xl font-semibold pb-4'>ShopX - Full Stack E-Commerce Website</h2>
+    <div className='w-full sm:w-auto flex flex-wrap sm:flex-nowrap'>
     <p style={style} className='bg-white shadow-md rounded-lg p-4 shadow-2xl'>"ShopX" is an e-commerce platform developed using React.js for
 the front-end, <br /> Spring Boot for the back-end, MySQL for data
 management, and REST APIs for  <br />seamless communication. This
@@ -48,16 +49,17 @@ ability to create a user-friendly online shopping experience. <br />
 Payment Gateway is Integrated using stripe <br />
 User Authentication is managed using FireBase Authentication</p>
 
+    </div>
 <div className='md:order-3 pt-8'>
 <h2 style={style} className='text-xl font-semibold pb-10'>Tech Stack Used</h2>
-<div className='w-128 flex flex-row'>
+<div className=' flex flex-row'>
 <img src={htmlImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={cssImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={scriptImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={reactImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 
 </div>
-<div className='w-128 flex flex-row pt-4'>
+<div className=' flex flex-row pt-4'>
 <img src={javaImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={springImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={fireImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
@@ -66,8 +68,9 @@ User Authentication is managed using FireBase Authentication</p>
 </div>
 </div>
     </div>
-    <div className='w-20'></div>
-    <div className='flex flex-col'>
+    <div className='h-12 sm:w-20'></div>
+
+    <div className='flex flex-col '>
     <h2 style={style} className='text-xl font-semibold pb-4'>UI of The Website</h2>
     <div>
     <img src={shopImage} className="h-52 w-96  rounded-md shadow-md  shadow-2xl hover:scale-105 transition-transform " alt="me" />
@@ -88,23 +91,25 @@ User Authentication is managed using FireBase Authentication</p>
 {/* 2nd Box */}
 <div className='h-12'></div>
 <div className='flex justify-center items-center'>
-<div className='bg-white shadow-md rounded-lg p-8 shadow-2xl w-max hover:scale-105 transition-transform'>
-<div className='flex flex-row '>
+<div className='bg-white shadow-md rounded-lg p-4 sm:p-8 shadow-2xl w-max hover:scale-105 transition-transform'>
+<div className='flex flex-col sm:flex-row '>
     {/* <div className='w-80'></div> */}
 <div>
-    <h2 style={style} className='text-xl font-semibold pb-4'>ShopX - Full Stack E-Commerce Website</h2>
+    <h2 style={style} className='text-xl font-semibold pb-4'>Personal E-Portfolio</h2>
+    <div className='w-full sm:w-auto flex flex-wrap sm:flex-nowrap'>
     <p style={style} className='bg-white shadow-md rounded-lg p-4 shadow-2xl'>Discover my professional journey through my personalized e-portfolio,<br /> meticulously crafted using React.js and Tailwind CSS. This dynamic web <br /> application  not only showcases my skills and experiences but also offers <br />a seamless and responsive user experience. The implementation of React <br /> components ensures a modular and maintainable codebase, while Tailwind <br /> CSS brings a touch of elegance to the design. With a mobile-first approach, <br /> the portfolio adapts seamlessly to various screen sizes, presenting a <br /> polished and consistent look.</p>
+    </div>
 
 <div className='md:order-3 pt-8'>
 <h2 style={style} className='text-xl font-semibold pb-10'>Tech Stack Used</h2>
-<div className='w-128 flex flex-row'>
+<div className=' flex flex-row '>
 <img src={htmlImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={cssImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={scriptImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={reactImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 
 </div>
-<div className='w-128 flex flex-row pt-4'>
+<div className=' flex flex-row pt-4'>
 {/* <img src={javaImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={springImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
 <img src={fireImage} className="h-10 mr-3 ml-4  hover:scale-125 transition-transform" alt="me" />
@@ -113,7 +118,7 @@ User Authentication is managed using FireBase Authentication</p>
 </div>
 </div>
     </div>
-    <div className='w-20'></div>
+    <div className='h-12 sm:w-20'></div>
     <div className='flex flex-col'>
     <h2 style={style} className='text-xl font-semibold pb-4'>UI of The Website</h2>
     <div>

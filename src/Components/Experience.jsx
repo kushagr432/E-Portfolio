@@ -16,7 +16,7 @@ export default function Experience() {
 <h1 style={style} className='text-7xl absolute top-0 z-10 font-bold'>Experience</h1>
 </div>
 <div className='h-24'></div>
-<div className='flex justify-center'>
+<div className='flex justify-center p-8 sm:p-0'>
 
 <ol class="relative border-s border-black dark:border-black">
     <li class="mb-10 ms-4">

@@ -63,7 +63,7 @@ return (
         <div className='md:order-1'>
     <div className='flex flex-row'>
 
-        <div className='w-80 md:order-1'></div>
+        <div className='w-24 sm:w-80 md:order-1'></div>
     <div className='md:order-2' >
 <h1 style={style} className='text-7xl  font-bold '>Contact</h1>
     </div>
@@ -72,10 +72,12 @@ return (
     <div className='md:order-2'>
     <div className='flex flex-row'>
 
-<div className='w-80 md:order-1'></div>
+<div className='w-0 sm:w-80 md:order-1'></div>
 <div className='md:order-2' >
+    <div className='w-full p-8 sm:w-auto sm:p-0'>
+
 <div className='bg-gray-200 shadow-md rounded-lg p-8 shadow-2xl border-1 border-black '>
-<form className=" w-128 mt-5" onSubmit={handleSubmit}>
+<form className="w-72 sm:w-128 mt-5" onSubmit={handleSubmit}>
     <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
         Name:
@@ -119,6 +121,7 @@ return (
     </div>
     </form>
 </div>
+        </div>
 </div>
 </div>
     </div>
