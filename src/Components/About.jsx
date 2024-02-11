@@ -17,7 +17,7 @@ export default function About() {
 
         const downloadFile = () => {
           // Construct the relative URL to your PDF file
-        const fileUrl = process.env.PUBLIC_URL + '/Resume_Kushagr_Jain.pdf';
+        const fileUrl = process.env.PUBLIC_URL + '/SD_Resume_KushagrJain.pdf';
     
           // Create a download link
         const link = document.createElement('a');

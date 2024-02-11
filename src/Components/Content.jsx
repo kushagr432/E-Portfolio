@@ -11,6 +11,22 @@ export default function Content() {
         backgroundColor: 'black',
         color: 'white', // You can change the text color if needed
     };
+    const downloadFile = () => {
+        // Construct the relative URL to your PDF file
+    const fileUrl = process.env.PUBLIC_URL + '/SD_Resume_KushagrJain.pdf';
+
+        // Create a download link
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = 'Resume_Kushagr.pdf';
+
+        // Append the link to the document and trigger the click event
+    document.body.appendChild(link);
+    link.click();
+
+        // Remove the link from the document
+    document.body.removeChild(link);
+    };
     
 return (
     <>
@@ -64,9 +80,10 @@ return (
 </div>
     </div>
     <div className='md:order-8 ml-8 p-6 sm:ml-0 sm:p-0'>
-<h1 style={style} className='self-center text-4xl font-medium whitespace-nowrap dark:text-white pb-2 sm:text-5xl'>
-    Kushagr Jain
+<h1 style={style} className='self-center text-4xl font-medium whitespace-nowrap dark:text-white pb-2sm:text-5xl'>
+    Kushagr Jain  <Button className='w-8 h-8 ' onClick={downloadFile} variant="outlined" style={blackButtonStyle}> CV</Button>
 </h1>
+
 <span style={style} className='self-center text-xl font-medium whitespace-nowrap dark:text-white pt-2'>
     Full Stack Developer
 </span>
