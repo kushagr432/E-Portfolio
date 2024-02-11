@@ -1,4 +1,4 @@
-import { Drawer, IconButton, List, ListItem, ListItemPrefix, ListItemSuffix, Typography } from "@material-tailwind/react";
+import { Drawer, IconButton, List, ListItem, ListItemPrefix, Typography } from "@material-tailwind/react";
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import FaceImage from '../Images/facebook.png';
@@ -23,7 +23,7 @@ return (
     <nav className="bg-grey-800 bg-opacity-100 border-gray-200 ">
     <div className="flex items-center p-4">
     <div className="md:order-1">
-    <div className='w-10'>
+    <div className='w-4 sm:w-10'>
     {/* This is a blank div to give spacing between two elements */}
     </div>
     </div>
@@ -37,7 +37,7 @@ return (
         </Link>
     </div>
     <div className="md:order-3">
-    <div className='w-24 sm:w-96'>
+    <div className='w-12 sm:w-96'>
     {/* This is a blank div to give spacing between two elements */}
     </div>
     </div>
@@ -111,8 +111,7 @@ return (
             </svg>
             </ListItemPrefix>
             Projects
-            <ListItemSuffix>
-            </ListItemSuffix>
+            
         </ListItem>
                 </Link>
                 <Link to="/exp" className="" aria-current="page">

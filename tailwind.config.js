@@ -9,8 +9,15 @@ module.exports = withMT({
       },
       width: {
         '128': '36rem',
-      }
+      },
+      colors: {
+       Gray:{
+        900:"#212121",
+
+       }
+      },
     },
+    
   },
   plugins: [],
 });

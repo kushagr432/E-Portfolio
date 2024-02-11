@@ -21,10 +21,10 @@ return (
 <div className='w-0 lg:w-28'>
 </div>
     </div>
-    <div className='md:order-2 flex items-center'>
+    <div className='md:order-2 flex items-center p-6 sm:p-0'>
         <div className='flex flex-row'>
     <div>
-        <ul className='flex flex-col p-4'>
+        <ul className='flex flex-col p-4 ml-0.5 sm:ml-0'>
             <li>
             {/* hover:bg-black */}
             <span style={style} className="self-center text-3xl font-medium whitespace-nowrap dark:text-white sm:text-5xl">Student</span>
@@ -42,11 +42,11 @@ return (
         </div>
     </div>
     <div className='md:order-3'>
-<div className='w-8 sm:w-14'>
+<div className='w-2 sm:w-14'>
 </div>
     </div>
     <div className='md:order-4'>
-    <img src={myImage} className="h-72 sm:h-96 w-38 " alt="me" />
+    <img src={myImage} className="h-64 sm:h-96 w-38 " alt="me" />
     
     </div>
         </div>
@@ -63,8 +63,8 @@ return (
 <div className='w-14 h-14 sm:h-0'>
 </div>
     </div>
-    <div className='md:order-8 '>
-<h1 style={style} className='self-center text-5xl font-medium whitespace-nowrap dark:text-white pb-2'>
+    <div className='md:order-8 ml-8 p-6 sm:ml-0 sm:p-0'>
+<h1 style={style} className='self-center text-4xl font-medium whitespace-nowrap dark:text-white pb-2 sm:text-5xl'>
     Kushagr Jain
 </h1>
 <span style={style} className='self-center text-xl font-medium whitespace-nowrap dark:text-white pt-2'>
@@ -73,7 +73,7 @@ return (
 <br />
 <div className='h-10'>
 </div>
-<div className='w-full sm:w-auto flex flex-wrap'> 
+<div className='w-full sm:w-auto flex flex-wrap'>
 <span style={style} className='self-center text-xl font-medium whitespace-normal dark:text-white pt-2'>
 A Full Stack multi-skilled professional
 <br />
